@@ -1,0 +1,23 @@
+body {
+    background-image: url('./alexander-volkanovski.webp');
+    color:white;
+    font-family: "Jersey 25", sans-serif;
+  }
+
+  .question{
+    margin-top: 20%;
+  }
+
+  .input{
+    display: flex;
+    margin-left:auto;
+  }
+
+  .suggestions{
+    color:dodgerblue;
+    margin-left:90%;
+  }
+
+  #fighterslist{
+    cursor:pointer;
+  }
