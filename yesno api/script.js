@@ -9,7 +9,8 @@ fetch('https://api.octagon-api.com/fighters')
   .then(data => {
     console.log("Data loaded successfully:", data);
     // Adjust this: if the API returns { fighters: [...] }, use data.fighters
-    fighterList = Array.isArray(data) ? data : data.fighters || [];
+    fighterList = Object.values(data);
+    console.log(fighterList);
   })
   .catch(err => console.error("Initial fetch error:", err));
 

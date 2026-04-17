@@ -1,11 +1,11 @@
 body {
-    background-image: url('./alexander-volkanovski.webp');
-    color:white;
+    background-color:lightblue;
+    color:black;
     font-family: "Jersey 25", sans-serif;
   }
 
   .question{
-    margin-top: 20%;
+    margin-top: 5%;
   }
 
   .input{
@@ -18,41 +18,30 @@ body {
     margin-left:90%;
   }
 
+  .gif{
+    height: 400px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+  }
+
+  .form{
+    margin-top: 6%;
+  }
+
   #fighterslist{
     cursor:pointer;
   }
 
   @media (max-width:720px){
-    .question{font-size:175%;}
+    .question{font-size:200%; margin-bottom: 20%;}
+    .form{margin-top: 6%;}
+    .gif{height: auto;}
     body{background-position:center;}
   }
 
   /* use this code to cetner stuff horizontally */
 
   /* margin-left:auto;
-  margin-right:auto;
-  display:block; */
-
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333333;
-  }
-  
-  ul li {
-    float: left;
-  }
-  
-  ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  ul li a:hover {
-    background-color: #111111;
-  }
+    margin-right:auto;
+    display:block; */
