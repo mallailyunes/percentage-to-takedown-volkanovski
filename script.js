@@ -36,7 +36,7 @@ submitButton.addEventListener("click", () => {
 
   if (matches.length > 0) {
     resultsList.innerHTML = matches
-      .map(f => `<li>${f.name} (Weightclass: ${f.weightclass || 'N/A'})</li>`)
+      .map(f => `<li>${f.name} (Weightclass: ${f.category || 'N/A'})</li>`)
       .join("");
   } else {
     resultsList.innerHTML = `<li>No matches found for "${query}".</li>`;
